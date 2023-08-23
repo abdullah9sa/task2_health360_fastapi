@@ -61,6 +61,7 @@ async def create_post(
     if author is None:
         raise HTTPException(status_code=404, detail="Author not found")
 
+
     # Create a new post
     new_post = await Post.create(
         title=post_data.title,
