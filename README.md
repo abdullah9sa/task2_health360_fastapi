@@ -1,0 +1,1 @@
+This project follows a structured layout, comprising an app directory containing the application logic. The models folder holds database models, while routes define API endpoints. Essential dependencies are found in the dependencies directory. The project's core functionality can be found in the main.py file at the root.
